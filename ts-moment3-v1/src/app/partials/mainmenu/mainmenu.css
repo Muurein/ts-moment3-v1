@@ -1,0 +1,7 @@
+nav { 
+    background-color: pink;
+}
+
+.activeLink {
+    color: rgb(32, 16, 3);
+}
