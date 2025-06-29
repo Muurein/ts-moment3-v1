@@ -5,3 +5,7 @@ nav {
 .activeLink {
     color: rgb(32, 16, 3);
 }
+
+a:hover {
+    color: white;
+}
