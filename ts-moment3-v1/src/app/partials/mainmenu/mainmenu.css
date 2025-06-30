@@ -6,6 +6,10 @@ nav {
     color: rgb(32, 16, 3);
 }
 
+ul li {
+    font-variant: small-caps;
+}
+
 a:hover {
     color: white;
 }

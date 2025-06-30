@@ -4,23 +4,37 @@
 <h3>Meter till Feet</h3>
 <form>
     <label for="meter">Meter: </label>
-    <input type="number" id="meter" name="meter">
+    <input type="number" id="meter" name="meter" [(ngModel)]="meterInput">
     <br>
-    <p>till</p>
-    <label for="feet">Feet: </label>
-    <input type="number" id="feet" name="name">
 </form>
 
-<h4>Resultat:</h4>
+<div>
+    <button (click)="convertToFeet()">Omvandla!</button>
+</div>
+
 <div id="resultMToF">
-    <div id="meterToFeet"></div>
-    <div id="feetToMeter"></div>
+    <h4>Feet:</h4>
+
+    <p id="resultMeterToFeet">{{ meterToFeetResult }}</p>
 </div>
 
 
 
 <!--ft till meter-->
+<form>
+    <label for="feet">Feet: </label>
+    <input type="number" id="feet" name="name" [(ngModel)]="feetInput">
+</form>
 
+<div>
+    <button (click)="convertToMeter()">Omvandla!</button>
+</div>
+
+<div id="resultFToM">
+    <h4>Meter:</h4>
+
+    <p id="feetToMeter">{{ feetToMeterResult }}</p>
+</div>
 
 
 
@@ -28,17 +42,31 @@
 <h3>Celsius till Fahrenheit</h3>
 <form>
     <label for="celsius">Celsius: </label>
-    <input type="number" id="celsius" name="celsius">
-    <br>
-    <p>till</p>
-    <label for="fahrenheit">Fahrenheit: </label>
-    <input type="number" id="fahrenheit" name="fahrenheit">
+    <input type="number" id="celsius" name="celsius" [(ngModel)]="celsiusInput">
 </form>
 
-<h4>Resultat:</h4>
+<div>
+    <button (click)="convertToFahrenheit()">Omvandla!</button>
+</div>
+
 <div id="resultCToF">
-    <div id="cToF"></div>
-    <div id="fToC"></div>
+    <h4>Fahrenheit:</h4>
+
+    <p id="cToF">{{ celsiusToFahrenheitResult }}</p>
 </div>
 
 <!--farenheit till celsius-->
+<form>
+    <label for="fahrenheit">Fahrenheit: </label>
+    <input type="number" id="fahrenheit" name="fahrenheit" [(ngModel)]="fahrenheitInput">
+</form>
+
+<div>
+    <button (click)="convertToCelsius()">Omvandla!</button>
+</div>
+
+<div id="resultCToF">
+    <h4>Celsius:</h4>
+
+    <p id="ftoC">{{ fahrenheitToCelsiusResult }}</p>
+</div>
