@@ -1,4 +1,6 @@
 # Programmering i TypeScript - moment 3 - Angular I
+Uppgiften använder sig av Angular 20.
+
 ## Struktur
 Följande undersidor används i arbetet. De är komponenter och ligger i mappen "pages":
 1. home - startsidan som innehåller en bild och kort info om vad sidan gör
