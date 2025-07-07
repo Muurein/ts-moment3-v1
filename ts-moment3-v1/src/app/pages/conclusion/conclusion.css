@@ -1,0 +1,10 @@
+p {
+    font-size: 16px;
+    padding: 0.3em;
+}
+
+.breakpoint {
+    border-top: 5px dotted white;
+    padding-top: 2em;
+    margin-top: 1.5em;
+}

@@ -8,12 +8,46 @@ body {
 
 .container {
     max-width: 70%;
+    width: 1005;
     margin: 0 auto;
 }
 
 main {
+    text-align: center;
     padding: 1em;
     background-color: palevioletred;
     color: white;
     border-radius: 25px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+   color: rgb(54, 12, 27);
+}
+
+footer {
+    background-color: pink;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 1em;
+    padding: 0.8em;
+}
+
+@media (min-width: 1024px) {
+    main {
+        max-width: 40%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer {
+        max-width: 40%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

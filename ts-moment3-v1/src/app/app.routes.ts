@@ -10,5 +10,5 @@ export const routes: Routes = [
     { path: "conclusion", component: Conclusion },
     { path: "", redirectTo: "home", pathMatch: "full" },
     { path: "404", component: NotFound }, //om något går fel
-    {path: "**", component: NotFound } //överflödig grafik
+    { path: "**", component: NotFound } //överflödig grafik
 ];

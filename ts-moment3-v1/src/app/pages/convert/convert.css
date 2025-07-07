@@ -1,0 +1,25 @@
+.convert-divs {
+    gap: 5em;
+    border-top: 5px dotted white;
+}
+
+h3 {
+    color: rgb(73, 22, 40);
+}
+
+button {
+    background-color: white;
+    border: none;
+    padding: 0.5em;
+    margin-top: 1.5em;
+    cursor: pointer;
+}
+
+#result {
+    display: flex; 
+    justify-content: center;
+}
+
+#result p {
+    margin-left: 20px;
+}

@@ -1,0 +1,16 @@
+img {
+    width: 95%;
+    height: auto;
+    border-radius: 25px;
+}
+
+div {
+    margin-top: 1.5em;
+    padding-top: 1.5em;
+    border-top: 5px dotted white;
+}
+
+.units {
+    margin-top: -15px;
+}
+
