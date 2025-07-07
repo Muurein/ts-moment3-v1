@@ -5,12 +5,22 @@ img {
 }
 
 div {
-    margin-top: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
     padding-top: 1.5em;
-    border-top: 5px dotted white;
+}
+
+.contact-us {
+        border-top: 5px dotted white;
 }
 
 .units {
     margin-top: -15px;
 }
 
+@media (min-width: 1024px) {
+    h2 {
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+    }
+}
