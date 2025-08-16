@@ -7,7 +7,10 @@ import { FormsModule } from "@angular/forms";
   templateUrl: './convert.html',
   styleUrl: './convert.css'
 })
+
 export class Convert {
+
+  //variabler
   meterInput: number = 0;
   feetInput: number = 0;
   meterToFeetResult: number = 0;
@@ -18,7 +21,7 @@ export class Convert {
   celsiusToFahrenheitResult: number = 0;
   fahrenheitToCelsiusResult: number = 0;
 
-  //metoder
+  //metoder som konverterar enheterna
   convertToFeet(): void {
     this.meterToFeetResult = this.meterInput * 3.3;
   }

@@ -10,6 +10,7 @@ import { Contact } from '../../partials/contact/contact';
 
 export class Home {
 
+  //lägger ut en bild av ett måttband på startsidan
   homepageImage: string = "images/measuring-tape-still-life.jpg";
 
 }

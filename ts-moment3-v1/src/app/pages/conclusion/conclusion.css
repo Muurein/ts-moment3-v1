@@ -9,6 +9,7 @@ p {
     margin-top: 1.5em;
 }
 
+/* desktop */
 @media (min-width: 1024px) {
     p {
         padding-left: 2.5em;
