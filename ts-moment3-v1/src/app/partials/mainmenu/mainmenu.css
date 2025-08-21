@@ -11,8 +11,6 @@ nav {
 ul {
     text-align: center;
     padding-right: 2em;
-    padding-left: auto;
-
 }
 
 li {
@@ -34,6 +32,7 @@ a:hover {
 }
 
 
+/* desktop */
 @media (min-width: 1024px) {
     nav {
         max-width: 42%;

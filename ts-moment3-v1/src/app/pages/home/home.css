@@ -18,6 +18,7 @@ div {
     margin-top: -15px;
 }
 
+/* desktop */
 @media (min-width: 1024px) {
     h2 {
         padding-left: 2.5em;

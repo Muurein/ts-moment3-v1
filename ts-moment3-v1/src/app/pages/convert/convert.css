@@ -15,14 +15,15 @@ button {
     cursor: pointer;
 }
 
-#result {
+.result {
     display: flex; 
     justify-content: center;
 }
 
-#result p {
+.result p {
     margin-left: 20px;
 }
+
 
 /* desktop */
 @media (min-width: 1024px) {
